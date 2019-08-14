@@ -1,0 +1,33 @@
+// nesting ul 
+
+nav {
+	padding: 2*$padding;
+	background: white;
+	display: none;
+	z-index: 3;  //overlaying
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	;
+	ul {
+		li {
+			padding: 2*$padding;
+			margin: 3*$margin;
+			a{
+				color: green;
+			}
+			a:hover{
+				color: white;
+				// font-weight: bold;
+				font-size: $navFontSize;
+
+			}
+
+		}
+	}
+}
+
+
+.active {
+	display: block;
+}

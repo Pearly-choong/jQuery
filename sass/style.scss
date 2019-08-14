@@ -1,0 +1,17 @@
+@import 'cssReset';
+@import 'variables';
+@import 'images';
+@import 'nav';
+@import 'icons';
+
+body {
+	background: $backcolor;
+	color: $fontcolor;
+}
+
+h1 {
+	margin: 2*$margin;
+	padding: $padding;
+	font-size: $fontSize;
+}
+

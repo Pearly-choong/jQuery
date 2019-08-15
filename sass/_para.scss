@@ -1,0 +1,29 @@
+.row {
+	width: 100%;
+	float: left;
+}
+
+
+.paraLeft, .paraRight {
+	margin: 0 auto;
+	float: left;
+	width: 50%;
+	padding: 2*$padding;
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+.clearFix {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+li {
+	@extend .paraLeft;
+}
+

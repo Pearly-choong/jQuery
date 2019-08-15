@@ -1,0 +1,6 @@
+.btn {
+	@include dimension (80px, 30px);
+	border-radius: 5px;
+	background-color: orange;
+	padding: 3px;
+}

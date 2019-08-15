@@ -1,8 +1,11 @@
 @import 'cssReset';
 @import 'variables';
+@import 'mixin';
 @import 'images';
 @import 'nav';
 @import 'icons';
+@import 'para';
+@import 'button';
 
 body {
 	background: $backcolor;
@@ -13,5 +16,6 @@ h1 {
 	margin: 2*$margin;
 	padding: $padding;
 	font-size: $fontSize;
+	text-align: center;
 }
 

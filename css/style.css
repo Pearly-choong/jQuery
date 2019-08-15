@@ -6,12 +6,14 @@
   text-decoration: none; }
 
 .imgDiv {
-  width: 80%;
+  width: 50%;
   margin: auto;
-  border: 1px solid black; }
+  border: 3px solid white;
+  padding: 20px;
+  box-shadow: 0 0 3px 3px; }
 
 .logoImg {
-  width: 150px;
+  width: 300px;
   display: block;
   margin: auto; }
 
@@ -40,6 +42,30 @@ nav {
   padding-left: 40px;
   margin-top: 20px; }
 
+.row {
+  width: 100%;
+  float: left; }
+
+.paraLeft, li, .paraRight {
+  margin: 0 auto;
+  float: left;
+  width: 50%;
+  padding: 40px;
+  font-size: 18px;
+  line-height: 30px; }
+
+.clearFix {
+  content: "";
+  clear: both;
+  display: table; }
+
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orange;
+  padding: 3px; }
+
 body {
   background: #ffdcf7;
   color: black; }
@@ -47,6 +73,7 @@ body {
 h1 {
   margin: 40px;
   padding: 20px;
-  font-size: 50px; }
+  font-size: 50px;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

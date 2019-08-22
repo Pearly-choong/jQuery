@@ -27,3 +27,8 @@ li {
 	@extend .paraLeft;
 }
 
+
+ul.features {
+	@extend .paraLeft;
+	margin-left: 210px;
+}

@@ -46,7 +46,7 @@ nav {
   width: 100%;
   float: left; }
 
-.paraLeft, li, .paraRight {
+.paraLeft, li, ul.features, .paraRight {
   margin: 0 auto;
   float: left;
   width: 50%;
@@ -59,11 +59,21 @@ nav {
   clear: both;
   display: table; }
 
+ul.features {
+  margin-left: 210px; }
+
 .btn {
   width: 80px;
   height: 30px;
   border-radius: 5px;
   background-color: orange;
+  padding: 3px; }
+
+.lessBtn {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: green;
   padding: 3px; }
 
 body {
